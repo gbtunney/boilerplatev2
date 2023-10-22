@@ -1,5 +1,5 @@
 {
-    "name": "test-package",
+    "name": "@snailicide/test-package",
     "version": "0.0.1",
     "description": "Function library written in typescript",
     "private": false,

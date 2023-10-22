@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     branches:
-      - master
+      - development
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
@@ -41,3 +41,14 @@ jobs:
           commit: "chore: this commit was created by changesets"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Release Pull Request or Publish to npm
+          id: changesets
+          uses: changesets/action@v1
+          with:
+            # This expects you to have a script called release which does a build for your packages and calls changeset publish
+            commit: "chore: this commit was created by changesets"
+            publish: pnpm -r run release
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -28,7 +28,7 @@
         "\n========== WORKFLOW >> ==========": "",
         "workflow:archive": "pnpm install && open /Applications/Docker.app && cross-var pnpm exec gh act --workflows  ./workflows/changeset-release.yml --secret 'GITHUB_TOKEN=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' --reuse",
         "\n==========       TEST >> ==========": "",
-        "test": "echo  \"Error: no test specified\" ",
+        "test": " ",
         "\n========== UNINSTALL >> ==========": "",
         "uninstall": "pnpm run clean && pnpm uninstall:list && pnpm run uninstall:rm && pnpm run uninstall:lock",
         "uninstall:list": "find . -name 'node_modules' -type d -prune",
