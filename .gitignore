@@ -139,3 +139,4 @@ apps
 .env
 .idea
 .pnpm-store
+workflows
