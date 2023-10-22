@@ -1,5 +1,11 @@
 # test-package
 
+## 0.0.4
+
+### Patch Changes
+
+-   a34471a: this is yet another
+
 ## 0.0.3
 
 ### Patch Changes
