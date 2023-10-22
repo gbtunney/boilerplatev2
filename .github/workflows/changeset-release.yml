@@ -37,5 +37,4 @@ jobs:
         uses: changesets/action@v1
         with:
           commit: "chore: this commit was created by changesets"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
