@@ -45,3 +45,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+          with:
+            commit_message: 'style(root): formatted by bot'
