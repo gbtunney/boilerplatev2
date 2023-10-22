@@ -1,5 +1,11 @@
 # test-package
 
+## 0.0.7
+
+### Patch Changes
+
+-   bb2e2f9: last one i swear
+
 ## 0.0.6
 
 ### Patch Changes
