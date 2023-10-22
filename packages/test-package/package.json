@@ -1,6 +1,6 @@
 {
     "name": "@snailicide/test-package",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Gillian Function library written in typescript",
     "private": false,
     "type": "module",
