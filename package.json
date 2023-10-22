@@ -26,7 +26,7 @@
         "prepare": "husky install",
         "pre:commit": "lint-staged",
         "\n========== WORKFLOW >> ==========": "",
-        "workflow:archive": "pnpm install && open /Applications/Docker.app && cross-var pnpm exec gh act --workflows  ./.github/workflows/action-pr-opened.yml --secret 'token=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' --reuse",
+        "workflow:archive": "pnpm install && open /Applications/Docker.app && cross-var pnpm exec gh act --workflows  ./workflows/changeset-release.yml --secret 'GITHUB_TOKEN=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' --reuse",
         "\n==========       TEST >> ==========": "",
         "test": "echo  \"Error: no test specified\" ",
         "\n========== UNINSTALL >> ==========": "",
@@ -54,7 +54,6 @@
         "prettier": "^3.0.3",
         "typescript": "^5.2.2"
     },
-    "packageManager": "pnpm@7.17.1",
     "engines": {
         "node": ">=18.7.0",
         "pnpm": ">=7.17.1"
@@ -67,7 +66,9 @@
         "*.{ts,js,cjs,mjs}": "eslint -c .eslintrc.cjs"
     },
     "prettier": "@snailicide/build-config/prettier",
-    "eslintIgnore": ["./packages"],
+    "eslintIgnore": [
+        "./packages"
+    ],
     "config": {
         "eslint": {
             "extensions": "ts,js,cjs,mjs",
