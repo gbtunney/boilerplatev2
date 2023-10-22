@@ -35,20 +35,12 @@ jobs:
           git status
           git branch
 
-      - name: Create Release Pull Request
-        uses: changesets/action@v1
-        with:
-          commit: "chore: this commit was created by changesets"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1
         with:
           # This expects you to have a script called release which does a build for your packages and calls changeset publish
           commit: "chore: this commit was created by changesets"
-          publish: pnpm changeset tag
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
