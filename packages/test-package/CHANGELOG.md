@@ -1,5 +1,11 @@
 # test-package
 
+## 0.0.3
+
+### Patch Changes
+
+-   f89a1cb: test again
+
 ## 0.0.2
 
 ### Patch Changes
