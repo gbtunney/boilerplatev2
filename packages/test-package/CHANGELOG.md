@@ -1,5 +1,11 @@
 # test-package
 
+## 0.0.6
+
+### Patch Changes
+
+-   3ed6098: anotjher god
+
 ## 0.0.5
 
 ### Patch Changes
