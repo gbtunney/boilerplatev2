@@ -41,7 +41,7 @@ jobs:
         with:
           # This expects you to have a script called release which does a build for your packages and calls changeset publish
           commit: "chore: this commit was g created by changesets"
-          publish: pnpm changeset publish
+          publish: pnpm -r run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
