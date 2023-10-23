@@ -1,5 +1,11 @@
 # test-package
 
+## 0.0.9
+
+### Patch Changes
+
+-   29269c6: F MKMKMKMKM
+
 ## 0.0.8
 
 ### Patch Changes
