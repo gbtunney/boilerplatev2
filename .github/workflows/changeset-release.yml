@@ -39,6 +39,12 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: commited by a bot'
+          branch: development
+
+            # Optional. Options used by `git-commit`.
+            # See https://git-scm.com/docs/git-commit#_options
+          commit_options: '--no-verify --signoff'
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
