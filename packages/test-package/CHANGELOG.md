@@ -1,5 +1,11 @@
 # test-package
 
+## 0.0.10
+
+### Patch Changes
+
+-   7da6ce9: omfg
+
 ## 0.0.9
 
 ### Patch Changes
