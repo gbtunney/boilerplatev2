@@ -1,6 +1,6 @@
 {
     "name": "@snailicide/test-package",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "description": "Gillian HOLA Function library written in typescript",
     "private": false,
     "type": "module",
