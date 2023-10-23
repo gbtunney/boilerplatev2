@@ -1,5 +1,11 @@
 # test-package
 
+## 0.0.12
+
+### Patch Changes
+
+-   c6b6b2d: last time
+
 ## 0.0.11
 
 ### Patch Changes
