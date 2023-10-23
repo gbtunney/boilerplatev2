@@ -47,6 +47,5 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - uses: stefanzweifel/git-auto-commit-action@v5
-        if: steps.changesets.outputs.published == 'true'
         with:
-          commit_message: 'chore: archive commited by a bot'
+          commit_message: 'chore: commited by a bot'
