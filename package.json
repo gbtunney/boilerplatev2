@@ -5,7 +5,7 @@
     "packageManager": "pnpm@^8.5.0",
     "scripts": {
         "\n========== COMMIT >> ==========": "",
-        "commit": "pnpm exec git-cz",
+        "commit": "pnpm  exec git-cz",
         "prepare:all": "pnpm run fix && pnpm run check && pnpm test",
         "\n========== BUILD >> ==========": "",
         "build": "pnpm -r build",
