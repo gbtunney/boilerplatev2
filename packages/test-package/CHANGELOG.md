@@ -1,5 +1,11 @@
 # test-package
 
+## 0.0.8
+
+### Patch Changes
+
+-   fe2cafb: FML
+
 ## 0.0.7
 
 ### Patch Changes
