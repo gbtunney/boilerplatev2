@@ -1,5 +1,11 @@
 # test-package
 
+## 0.0.11
+
+### Patch Changes
+
+-   7acd477: jkhkjhjhkjhk
+
 ## 0.0.10
 
 ### Patch Changes
