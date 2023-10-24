@@ -1,7 +1,7 @@
 {
     "name": "@gbt/root",
     "version": "0.0.0",
-    "description": "Monorepo (edited)Root Package Template File",
+    "description": "GilliMonorepo (edited)Root Package Template File",
     "packageManager": "pnpm@^8.5.0",
     "scripts": {
         "\n========== COMMIT >> ==========": "",
